@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".EditSocials">
+
+    <TextView
+        android:id="@+id/tvSocialAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="384dp"
+        android:text="@string/social_accounts"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="384dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:autofillHints="First Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/first_name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSocialAccounts"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/etFacebook"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:autofillHints="Facebook"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/facebook"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/etInstagram"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Instagram"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/instagram"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etTwitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFacebook"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/etTwitter"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:autofillHints="Phone"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/twitter"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFacebook"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Last Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/last_name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFirstName"
+        tools:ignore="LabelFor" />
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/ic_camera_background"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

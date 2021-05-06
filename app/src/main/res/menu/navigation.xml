@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/ic_home_foreground"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/btnScan"
+        android:icon="@drawable/ic_camera_foreground"
+        android:title="@string/scan"/>
+
+    <item
+        android:id="@+id/btnContacts"
+        android:icon="@drawable/ic_contacts_foreground"
+        android:title="@string/contacts"/>
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ConnectNow</string>
+    <string name="professional">Professional</string>
+    <string name="social">Social</string>
+    <string name="personal">Personal</string>
+    <string name="title_activity_personal">Personal</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="professional_information">Professional Information</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="social_accounts">Social Accounts</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="phone">Phone</string>
+    <string name="qr_code" />
+    <string name="back">Back</string>
+    <string name="camera">Camera</string>
+    <string name="home">Home</string>
+    <string name="contacts">Contacts</string>
+    <string name="scan">Scan</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748941944582",
+    "project_id": "connectnow-86650",
+    "storage_bucket": "connectnow-86650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748941944582:android:ee318899109992578d6087",
+        "android_client_info": {
+          "package_name": "com.example.connectnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748941944582-3nk9fpqblpf957q51ntjiajg5q18bo7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa73Lj704FCPykVUkBYCvWWmem_SiLlco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748941944582-3nk9fpqblpf957q51ntjiajg5q18bo7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
